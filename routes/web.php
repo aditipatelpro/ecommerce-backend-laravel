@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('register', 'API\[email protected]');
+Route::post('login', 'API\[email protected]');
